@@ -16,19 +16,17 @@ body {
 }
 
 .about-content {
-   
-    margin: 10px auto;
+
+    max-width: 1500px;   
+    margin: 20px auto;
     padding: 20px;    
-    border-radius: 8px;
     font-family: 'Arial', sans-serif; /* Font family */
     line-height: 1.6; 
 }
 
 .about-content p {
-    color: #333; /* Text color */
-    margin-bottom: 15px; /* Space between paragraphs */
-    font-weight: bold; 
-    color: #3f566d; 
+    margin-bottom: 15px; /* Space between paragraphs */    
+    font-size: 1.1rem;
 }
 
 .card-container {
