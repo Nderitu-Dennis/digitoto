@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+body {
+    background-color: #E0F7FA; 
+    font-family: Arial, sans-serif; 
+    color: #333; 
+}
+
+.about-content {
+   
+    margin: 10px auto;
+    padding: 20px;    
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif; /* Font family */
+    line-height: 1.6; 
+}
+
+.about-content p {
+    color: #333; /* Text color */
+    margin-bottom: 15px; /* Space between paragraphs */
+    font-weight: bold; 
+    color: #3f566d; 
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Align cards evenly */
+    flex-wrap: wrap; /* Wrap cards to the next line if the screen is small */
+    margin: 20px; 
+
+}
+
+.card {   
+    border: 2px solid #ddd; /* Light border */
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px; 
+    width: 200px; 
+    text-align: center; 
+    margin: 10px; /* Space between cards */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: yellow;
+}
+
+/* General styling for the card container */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design: Smaller screens (mobile phones) */
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .links a {
+        margin: 10px 0;
+    }
+
+    .about-content {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    /* Adjust card layout for smaller screens */
+    .card-container {
+        flex-direction: column; /* Stack the cards vertically */
+        align-items: center;
+    }
+
+    .card {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 300px;
+    }
+}
+
+/* Responsive Design: Very small screens (below 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+
+    .navbar .logo {
+        font-size: 18px;
+    }
+
+    .navbar .links a {
+        font-size: 14px;
+    }
+  
+
+   
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /*adding space btwn logo and links*/
+    align-items: center;
+    padding: 20px 20px; 
+    background-color: #00509E; /* Navbar background color */
+    color: white; /* Text color */
+}
+
+.logo {
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.links a {
+    color: white; 
+    text-decoration: none; /* Removes underline from links */
+    margin-left: 20px; /* Adds space between each link */
+}
+
+.links a:hover {
+    text-decoration: underline; 
+}

@@ -8,29 +8,6 @@ html, body {
     overflow-x: hidden;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between; /*adding space btwn logo and links*/
-    align-items: center;
-    padding: 20px 20px; 
-    background-color: #00509E; /* Navbar background color */
-    color: white; /* Text color */
-}
-
-.logo {
-    font-size: 24px; 
-    font-weight: bold;
-}
-
-.links a {
-    color: white; 
-    text-decoration: none; /* Removes underline from links */
-    margin-left: 20px; /* Adds space between each link */
-}
-
-.links a:hover {
-    text-decoration: underline; 
-}
 
 body {
     background-color: #E0F7FA; 
@@ -141,56 +118,6 @@ body {
 .card-button:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
-
-.footer {
-    background-color: #003366; 
-    color: white; 
-    padding: 20px;
-    position: relative; 
-    bottom: 0; 
-    width: 100%; 
-    box-sizing: border-box; /*to include its padding in its total width.*/
-}
-
-.footer-content {
-    display: flex; 
-    justify-content: space-between; /* Space between sections */
-    max-width: 1200px; 
-    margin: 0 auto; /* Center align the content */
-}
-
-.quick-links, .social-media, .contact-info {
-    flex: 1; /* Allow sections to grow */
-    margin: 0 20px; 
-}
-
-h3 {
-    margin-bottom: 10px; /* Spacing for headings */
-}
-
-ul {
-    list-style: none; /* Remove default list styles */
-    padding: 0; /* Remove padding */
-}
-
-ul li {
-    margin: 5px 0; /* Spacing between list items */
-}
-
-ul li a {
-    color: #00ffcc; /* Light color for links */
-    text-decoration: none; 
-}
-
-ul li a:hover {
-    text-decoration: underline; 
-}
-
-.footer-bottom {
-    text-align: center; 
-    margin-top: 20px; 
-}
-
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     .navbar {
