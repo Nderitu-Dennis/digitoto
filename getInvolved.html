@@ -8,6 +8,7 @@
     <link rel="stylesheet"  href="styles/getInvolved.css">
     <link rel="stylesheet" href="styles/footer.css"></style>
     <link rel="stylesheet" href="styles/navbar.css"></style>
+    <script src="scripts/getInvolved.js" defer></script>
 </head>
 <body>
 
@@ -22,6 +23,130 @@
                <a href="mission.html"> Mission</a>
         </div>
     </div>
+
+    <div class="container">
+        <h1>Get Involved</h1>
+        
+        <div class="involved-content">
+            <p>To be part of our amazing team and make a difference, please fill out the form below. Whether you're looking to volunteer, partner with us, or donate, we appreciate your involvement in supporting our mission.</p>
+        </div>
+        
+        
+
+        <form name="involvementForm" onsubmit="return validateForm()">
+            <table>
+                <tr>
+                    <td> <label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Your Name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label> </td>
+                    <td> <input type="email" id="email" name="email" placeholder="Your Email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="phone">Phone Number:</label></td>
+                    <td> <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                    </td>
+                </tr>
+            </table>      
+            
+            <br>
+
+           
+<label for="interest"><h3>What are you interested in?</h3></label>
+
+
+    <div class="checkbox-group">
+        <label for="volunteer">Volunteer</label>
+        <input type="checkbox" id="volunteer" name="interest" value="volunteer">        
+    
+        <label for="partner">Partner</label>
+        <input type="checkbox" id="partner" name="interest" value="partner">        
+    
+        <label for="donate">Donate</label>
+        <input type="checkbox" id="donate" name="interest" value="donate">
+       
+    </div>
+
+
+<label for="sponsor"><h3>Sponsor a Child with a Laptop</h3></label>
+
+    <div class="radio-group">
+
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="sponsor" value="yes">
+    
+        <label for="no">No</label>
+        <input type="radio" id="no" name="sponsor" value="no">
+        
+    </div>
+
+
+           <p>
+            <label for="message"><h3>Message:</h3></label><br>
+            <textarea id="message" name="message" placeholder="Write your message here" cols="50" rows="5"></textarea>
+           </p>
+
+            <p>
+                <label for="fileUpload">Upload a Document that would seem relevant to us(optional):</label>
+            <input type="file" id="fileUpload" name="fileUpload"><br>
+            </p>
+
+          <p>
+            <label for="date">Preferred Date for Volunteering:</label>
+            <input type="date" id="date" name="date">
+          </p>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <h2>Donate</h2>
+
+        <div class="involved-content">
+            <p>Help sponsor a child with a laptop or contribute to our community outreach programs. Get involved by donating or partnering with us.</p>
+        </div>
+       
+        <button class="donate-button" onclick="window.location.href='getInvolved.html'">Donate Now</button>
+        
+    </div>
+    <br>
+
+    <footer class="footer" id="contact-section">
+        <div class="footer-content">
+            <div class="quick-links">
+                <h3>Quick Links:</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="getInvolved.html">Get Involved</a>
+                    </li>                    
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us:</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Info:</h3>
+                <ul>
+                    <li>Email:<a href="mailto:info@digitoto.com">info@digitoto.com</a> </li>
+                    <li>Phone: <a href="tel:+123-456-7890">0123456789</a></li>
+                    <li>Address: Ruai</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 DigiToto IT Solutions. All rights reserved.
+        </div>
+    </footer>
+    
     
 </body>
 </html>
