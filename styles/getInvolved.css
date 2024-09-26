@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+body {
+    background-color: #E0F7FA; 
+    font-family: Arial, sans-serif; 
+    color: #333; 
+}

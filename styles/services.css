@@ -116,7 +116,7 @@ ol li::marker {
     }
 
     .services-content p,
-     ol li {
+    ul li, ol li {
         font-size: 14px;
     }
 }
