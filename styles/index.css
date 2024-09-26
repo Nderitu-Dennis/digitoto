@@ -120,21 +120,7 @@ body {
 }
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column; /*Stack logo and links vertically */
-        align-items: flex-start; /* Align items to the start */
-    }
-
-    .links {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px; /* Add space between logo and links */
-    }
-
-    .links a {
-        margin: 5px 0; /* Add margin between links */
-    }
-
+    
     .hero-section {
         height: 50vh; /* Reduce height on smaller screens */      
         
@@ -168,9 +154,7 @@ body {
 }
 
 @media (max-width: 480px) {
-    .navbar {
-        padding: 5px 10px;
-    }
+   
 
     .tagline h1 {
         font-size: 1.5em; 
@@ -180,17 +164,5 @@ body {
         font-size: 1em; 
     }
 
-    .footer-content {
-        flex-direction: column; 
-        align-items: center; 
     }
-
-    .quick-links, .social-media, .contact-info {
-        margin: 10px 0; /* Margin for spacing */
-    }
-
-    .footer-bottom {
-        margin-top: 10px; /* Margin for spacing */
-    }
-}
 

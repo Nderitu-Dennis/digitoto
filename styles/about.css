@@ -85,22 +85,7 @@ body {
 }
 
 /* Responsive Design: Smaller screens (mobile phones) */
-@media (max-width: 768px) {
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar .links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar .links a {
-        margin: 10px 0;
-    }
+@media (max-width: 768px) { 
 
     .about-content {
         padding: 20px;
@@ -126,14 +111,7 @@ body {
     }
 
 
-    .navbar .logo {
-        font-size: 18px;
-    }
-
-    .navbar .links a {
-        font-size: 14px;
-    }
-  
+   
 
    
 }

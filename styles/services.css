@@ -58,14 +58,7 @@ ol li::marker {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar .links a {
-        margin: 10px 0;
-    }
+   
 
     .services-content {
         padding: 15px;
@@ -90,19 +83,7 @@ ol li::marker {
 }
 
 @media (max-width: 480px) {
-    .navbar {
-        padding: 10px;
-    }
-
-    .navbar .logo {
-        font-size: 20px;
-    }
-
-    .navbar .links a {
-        font-size: 14px;
-        margin: 5px 0;
-    }
-
+   
     .services-content h2 {
         font-size: 24px;
     }

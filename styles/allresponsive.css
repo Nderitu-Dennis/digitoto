@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /*Stack logo and links vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px; /* Add space between logo and links */
+    }
+
+    .links a {
+        margin: 5px 0; /* Add margin between links */
+    }
+}
+    
+@media (max-width: 480px) {
+    .navbar {
+        padding: 5px 10px;
+    }
+    
+    .footer-content {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .quick-links, .social-media, .contact-info {
+        margin: 10px 0; /* Margin for spacing */
+    }
+
+    .footer-bottom {
+        margin-top: 10px; /* Margin for spacing */
+    }
+ 
+    .navbar .logo {
+        font-size: 18px;
+    }
+
+    .navbar .links a {
+        font-size: 14px;
+    }
+}
