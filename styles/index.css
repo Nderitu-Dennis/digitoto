@@ -166,3 +166,51 @@ body {
 
     }
 
+    /* CTA Buttons in the Hero Section */
+.cta-buttons {
+    display: flex;
+    gap: 40px; /* Space between buttons */
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #007BFF; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); 
+}
+
+.cta-button:active {
+    background-color: #004494; /* Even darker blue when clicked */
+    transform: scale(1.02); /* Slightly smaller when clicked */
+}
+
+
+/* Responsive CTA buttons for smaller screens */
+@media (max-width: 768px) {
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+ 
+
+   
+}
+
+
